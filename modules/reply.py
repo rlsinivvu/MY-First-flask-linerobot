@@ -17,6 +17,9 @@ from linebot.v3.messaging import (
 
 # 常見問答表
 faq = {
+    "你好": TemplateMessage(
+        text="你好，你可以輸入任何文字觀看主選單"
+    ),
     "貼圖": StickerMessage(
         package_id="1",
         sticker_id="1"

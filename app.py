@@ -40,7 +40,7 @@ import os
 #-----------------------------------------------方案練習
 from modules.reply import faq,menu #modules資料夾
 from modules.currency import get_exchange_table
-.00000table = get_exchange_table()
+table = get_exchange_table()
 # print(table)
 
 app = Flask(__name__)
